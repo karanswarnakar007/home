@@ -173,7 +173,7 @@ content: "";
  .text button{
     padding: 12px 36px;
     font-size: 20px;
-    margin: 50px 0px;
+    margin: 0px 0px;
     background-color: var(--userColor);
     color: var(--white);
     border: none;
@@ -224,7 +224,7 @@ width: 100%;
     width: 300px;
     /* background-color: #ff0046; */
     position: relative;
-    top: 30px;
+    top: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
