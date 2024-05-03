@@ -173,7 +173,6 @@ content: "";
  .text button{
     padding: 12px 36px;
     font-size: 20px;
-    margin: 0px 0px;
     background-color: var(--userColor);
     color: var(--white);
     border: none;
