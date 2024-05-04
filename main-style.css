@@ -159,9 +159,6 @@ content: "";
     /* filter: var(--change
     IconColor); */
 }
-#sun{
-   display: none;
-}
 .countener{
     height: 80vh;
     display: flex;
