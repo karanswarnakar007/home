@@ -182,7 +182,9 @@ body {
     /* filter: var(--change
     IconColor); */
 }
-
+#menu{
+    display: none;
+}
 .countener {
     height: 80vh;
     display: flex;
@@ -193,7 +195,7 @@ body {
 
 .text h1 {
     font-size: 60px;
-    width: 457px;
+    width: 450px;
     color: var(--blackText);
     font-family: var(--fontLogo);
     line-height: 70px;
