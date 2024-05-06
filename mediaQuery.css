@@ -35,16 +35,21 @@
         margin-right: 40px;
     }
     .moonMenu{
+        width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        flex-flow: row-reverse;
+        flex-flow: row;
         flex-direction: row
+    }
+    #logo{
+        display: none;
     }
     .moonMenu svg{
      height: 30px;
      filter: var(--changeIconColor);
      cursor: pointer;
+     margin-left: 30px;
     }
     .countener {
         height: 80vh;
@@ -52,23 +57,29 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        flex-flow: column;
+        flex-flow: column-reverse;
     }
    
     .content-image{
-        position: absolute;
-        top: 95%;
+        /* position: relative;
+        top: 95%; */
         /* left: 0; */
+        margin:300px 0px 100px 0px;
     }
-    .countener h1{
+    .countener .text h1{
         text-align: center;
+        /* font-size:40px; */
+        transform: scale(.69);
+    }
+     .text h1 span{
+        /* font-size: 40px; */
     }
     .icon-s {
         height: 100px;
         width: 100%;
         /* background-color: #ff0046; */
         position: relative;
-        top: 110%;
+        top: -8%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -80,9 +91,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        top: -80px;
     }
     #menu{
         display: block;
+    }
+    .content-image{
+        transform: scale(0.69);
     }
 }
 @media (max-width:721px) and  (min-width:500px) {
@@ -105,16 +121,21 @@
         margin-right: 40px;
     }
     .moonMenu{
+        width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        flex-flow: row-reverse;
+        flex-flow: row;
         flex-direction: row
+    }
+    #logo{
+        display: none;
     }
     .moonMenu svg{
      height: 30px;
      filter: var(--changeIconColor);
      cursor: pointer;
+     margin-left: 30px;
     }
     .countener {
         height: 80vh;
@@ -122,23 +143,29 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        flex-flow: column;
+        flex-flow: column-reverse;
     }
    
     .content-image{
-        position: absolute;
-        top: 110%;
+        /* position: relative;
+        top: 95%; */
         /* left: 0; */
+        margin:300px 0px 100px 0px;
     }
-    .countener h1{
+    .countener .text h1{
         text-align: center;
+        /* font-size:40px; */
+        transform: scale(.69);
+    }
+     .text h1 span{
+        /* font-size: 40px; */
     }
     .icon-s {
         height: 100px;
         width: 100%;
         /* background-color: #ff0046; */
         position: relative;
-        top: 95%;
+        top: -8%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -150,8 +177,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        top: -80px;
     }
     #menu{
         display: block;
+    }
+    .content-image{
+        transform: scale(0.69);
     }
 }
