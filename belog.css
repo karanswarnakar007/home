@@ -168,7 +168,6 @@ body{
     height: 110vh;
     width: 100vw;
     background-color: var(--blackBg);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transform: scale(0.97);
 }
 #heddin-1{
@@ -178,6 +177,7 @@ body{
     font-size: 4vw;
     color: var(--blackText);
     font-weight: 100;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .page11-inner{
     display: flex;
@@ -194,6 +194,7 @@ body{
     left: 5%;
     border-radius: 10px;
     overflow: hidden;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .left11>img{
     height: 100%;
@@ -207,6 +208,7 @@ body{
     position: absolute;
     height: 100%;
     width: 50%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .right11>h4{
     font-weight: 100;
