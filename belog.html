@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="belog.css">
   <link rel="stylesheet" href="mediaQuery.css">
-  <title>Belog</title>
+  <link rel="stylesheet" href="menu.css">
+  <title>Blog</title>
 
 
 
@@ -54,7 +55,7 @@
         <a href="#">
           <li>projects</li>
         </a>
-        <a href="#">
+        <a href="belog.html">
           <li>belog</li>
         </a>
         <a href="#">
@@ -68,7 +69,7 @@
       </label>
       
     <div class="moonMenu">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" id="menu"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" id="menu-responsiv_btn"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
       <a href="#">
         <label>
           <img src="moon.png" id="icon"></label>
@@ -227,7 +228,32 @@
 
 
 
-
+    <div class="menu-responsiv menuClose" id="menuResponsive">
+      <div id="close" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+      </div>
+      <ul>
+        <a href="index.html">
+          <li>home</li>
+        </a>
+        <a href="#">
+          <li>projects</li>
+        </a>
+        <a href="belog.html">
+          <li>belog</li>
+        </a>
+        <a href="#">
+          <li>about</li>
+        </a>
+        <a href="#">
+          <li>contact</li>
+        </a>
+      </ul>
+    </div>
+  
+  
+  
+  
 
 
 
@@ -239,33 +265,12 @@
 
   <!-- Add this script tag to your HTML file -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
   <script>
     $(document).ready(function () {
       // Hide the loader when the page is fully loaded
       $(".loader").fadeOut("slow");
     });
-
-
-
-
-   var  icon = document.getElementById("icon");
-  
-   icon.onclick = ()=>{
-    document.body.classList.toggle("dark-mood");
-    if (document.body.classList.contains("dark-mood")) {
-      
-      icon.src = "sun.png"
-    }else{
-      icon.src = "moon.png"
- 
-   }
-  }
-/*
- if(active == true){
-    }else{
-        header.classList.add("main-header2");
-    }
-*/
   </script>
 
 
