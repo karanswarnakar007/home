@@ -217,6 +217,7 @@ body {
 
 .text #btn {
     position: relative;
+    top: 26px;
     background-color: var(--blackBg);
     border-radius: 4em;
     font-size: 16px;
@@ -280,7 +281,7 @@ body {
     width: 300px;
     /* background-color: #ff0046; */
     position: relative;
-    top: 40px;
+    top: 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
